@@ -28,7 +28,39 @@ Here's a real-world example:
 
 ---
 
-## Prerequisites
+## Installation
+
+Download the latest release from GitHub [here](https://github.com/CommandPost/RenameAvidMXFFiles/releases/latest).
+
+Unzip the downloaded ZIP and put the `rename-avid-mxf` executable somewhere easily accessible like your Desktop.
+
+Open `Terminal.app` (you can search for **Terminal** in Spotlight) and change to the directory which contains the `rename-avid-mxf` executable.
+
+> **TIP:** You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
+
+To process a single file:
+
+    ```bash
+    ./rename-avid-mxf.sh "/path/to/yourfile.mxf"
+    ```
+
+To process a directory:
+
+    ```
+    ./rename-avid-mxf.sh "/path/to/directory"
+    ```
+
+This script will recursively search through the specified directory and rename all MXF files based on their package name.
+
+> **TIP:** You can right-click on files in Finder with the OPTION key held down to copy a file or folders pathname.
+
+---
+
+## Building Manually
+
+If you don't want to download a pre-compiled executable, you can trigger the Python Script directly.
+
+### Prerequisites
 
 - macOS 12 or later
 - Homebrew
@@ -37,7 +69,7 @@ Here's a real-world example:
 
 ---
 
-## Installation
+### Installation
 
 1. If not already installed, install **Homebrew**:
 
@@ -61,9 +93,9 @@ Here's a real-world example:
 
 5. Double click on the downloaded ZIP file in Finder to unzip it. Put the folder somewhere like your Desktop.
 
-6. Change to the directory which you just unzipped (i.e. the folder which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files). You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
+6. Change to the directory which you just unzipped (i.e. the folder which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files) and go into the **Source** folder. You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
 
-7. Make the shell script executable:
+7. Make the `rename-avid-mxf.sh` shell script executable:
 
     ```bash
     chmod +x rename-avid-mxf.sh
@@ -71,11 +103,11 @@ Here's a real-world example:
 
 ---
 
-## Usage
+### Usage
 
 Change to the directory which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files.
 
-You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
+> **TIP:** You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
 
 To process a single file:
 
@@ -90,3 +122,5 @@ To process a directory:
     ```
 
 This script will recursively search through the specified directory and rename all MXF files based on their package name.
+
+> **TIP:** You can right-click on files in Finder with the OPTION key held down to copy a file or folders pathname.
