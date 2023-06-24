@@ -1,4 +1,4 @@
-# Rename MXF Files
+# Rename Avid MXF Files
 
 This simple Python script is used to rename MXF files generated from Avid Media Composer to match their package names.
 
