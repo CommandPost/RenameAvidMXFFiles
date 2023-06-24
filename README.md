@@ -54,7 +54,7 @@ Here's a real-world example:
 3. Install **pymediainfo**:
 
     ```bash
-    pip3 install pymediainfo
+    python3 -m pip install pymediainfo
     ```
 
 4. Download this repository by clicking [here](https://github.com/CommandPost/RenameAvidMXFFiles/archive/refs/heads/main.zip) (or by pressing the **Code** button above then **Download ZIP**).
@@ -79,14 +79,14 @@ You can do this easily by dragging a folder from **Finder** to **Terminal** whil
 
 To process a single file:
 
-```bash
-./rename-avid-mxf.sh "/path/to/yourfile.mxf"
-```
+    ```bash
+    ./rename-avid-mxf.sh "/path/to/yourfile.mxf"
+    ```
 
 To process a directory:
 
-```
-./rename-avid-mxf.sh "/path/to/directory"
-```
+    ```
+    ./rename-avid-mxf.sh "/path/to/directory"
+    ```
 
 This script will recursively search through the specified directory and rename all MXF files based on their package name.
