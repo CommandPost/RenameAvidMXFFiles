@@ -28,6 +28,18 @@ Here's a real-world example:
 - `5bis-01-01 - 23Y06M08 - 5bis-01T01.wav.mxf`
 - `A016C010_230608_R2QM - A016C010_230608_R2QM.new.01.mxf`
 
+You can also use the optional `--trimafterspace` argument:
+
+**Before:**
+
+- `5bis-01T01A03.E0A869B4CDC3A.mxf`
+- `V01.E0A7CD6A_55C5455C54DD8V.mxf`
+
+**After:**
+
+- `5bis-01-01.mxf`
+- `A016C010_230608_R2QM.mxf`
+
 ---
 
 ## Easy Installation
@@ -52,9 +64,25 @@ To process a **folder** of MXF files:
 ./rename-avid-mxf "/path/to/folder"
 ```
 
+You can also use the optional **Trim After Space** argument:
+
+```bash
+./rename-avid-mxf --trimafterspace "/path/to/folder/or/file"
+```
+
 This script will recursively search through the specified folder and rename all MXF files based on their package name.
 
 **PRO TIP:** You can right-click on files in Finder with the OPTION key held down to copy a file or folders pathname.
+
+---
+
+## Version History
+
+### v1.0.1 - Saturday 24th June 2023
+- Added `--trimafterspace` argument.
+
+### v1.0.0 - Saturday 24th June 2023
+- Initial Release
 
 ---
 
