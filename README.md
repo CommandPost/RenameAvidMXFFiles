@@ -38,13 +38,13 @@ Open `Terminal.app` (you can search for **Terminal** in Spotlight) and change to
 
 **PRO TIP:** You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
 
-To process a single file:
+To process a **single MXF file**:
 
 ```bash
 ./rename-avid-mxf.sh "/path/to/yourfile.mxf"
 ```
 
-To process a directory:
+To process a **directory** of MXF files:
 
 ```bash
 ./rename-avid-mxf.sh "/path/to/directory"
