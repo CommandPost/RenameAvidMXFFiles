@@ -40,15 +40,15 @@ Open `Terminal.app` (you can search for **Terminal** in Spotlight) and change to
 
 To process a single file:
 
-    ```bash
-    ./rename-avid-mxf.sh "/path/to/yourfile.mxf"
-    ```
+```bash
+./rename-avid-mxf.sh "/path/to/yourfile.mxf"
+```
 
 To process a directory:
 
-    ```bash
-    ./rename-avid-mxf.sh "/path/to/directory"
-    ```
+```bash
+./rename-avid-mxf.sh "/path/to/directory"
+```
 
 This script will recursively search through the specified directory and rename all MXF files based on their package name.
 
