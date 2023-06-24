@@ -51,13 +51,19 @@ Here's a real-world example:
     brew install python3 mediainfo libmediainfo
     ```
 
-3. Download this repository by clicking [here](https://github.com/CommandPost/RenameAvidMXFFiles/archive/refs/heads/main.zip) (or by pressing the **Code** button above then **Download ZIP**).
+3. Install **pymediainfo**:
 
-4. Double click on the downloaded ZIP file in Finder to unzip it. Put the folder somewhere like your Desktop.
+    ```bash
+    pip3 install pymediainfo
+    ```
 
-5. Change to the directory which you just unzipped (i.e. the folder which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files). You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
+4. Download this repository by clicking [here](https://github.com/CommandPost/RenameAvidMXFFiles/archive/refs/heads/main.zip) (or by pressing the **Code** button above then **Download ZIP**).
 
-6. Make the shell script executable:
+5. Double click on the downloaded ZIP file in Finder to unzip it. Put the folder somewhere like your Desktop.
+
+6. Change to the directory which you just unzipped (i.e. the folder which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files). You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
+
+7. Make the shell script executable:
 
     ```bash
     chmod +x rename-avid-mxf.sh
