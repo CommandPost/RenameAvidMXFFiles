@@ -1,6 +1,12 @@
 import os
 import argparse
+import sys
 from pymediainfo import MediaInfo
+
+# If we're running as a PyInstaller binary, add the directory containing bundled
+# files to the library path
+if getattr(sys, 'frozen', False):
+    os.environ['DYLD_LIBRARY_PATH'] = sys._MEIPASS
 
 def rename_file(path):
     # Retrieve media information
