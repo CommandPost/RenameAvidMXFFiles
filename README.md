@@ -51,11 +51,7 @@ Here's a real-world example:
     brew install python3 mediainfo libmediainfo
     ```
 
-3. Clone this repository (or alternatively manually download all the files by pressing the **Code** button above then **Download ZIP**):
-
-    ```bash
-    git clone https://github.com/CommandPost/RenameAvidMXFFiles.git
-    ```
+3. Download this repository by clicking [here](https://github.com/CommandPost/RenameAvidMXFFiles/archive/refs/heads/main.zip) or by pressing the **Code** button above then **Download ZIP**.
 
 4. Change to the directory which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files. You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
 
