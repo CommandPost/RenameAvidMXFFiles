@@ -1,12 +1,12 @@
 # Rename Avid MXF Files
 
-This simple Python script is used to rename MXF files generated from Avid Media Composer to match their package names.
+This simple Python script is used to rename MXF files generated from Avid Media Composer to match the **Package Name** in their metadata.
 
-The script can process a single file or a directory containing multiple MXF files.
+The script can process a **single file** or a **folder** containing multiple MXF files.
 
 This is useful if you want to move native Avid MXF files from Avid Media Composer to Final Cut Pro.
 
-This script is very basic, and doesn't contain any special error handling or messaging.
+This script is very basic, and doesn't contain any special error handling or messaging. It may not work in all use cases.
 
 You should duplicate the MXF files you want to process prior to using, as there's no "undo" once you run the script.
 
@@ -34,7 +34,7 @@ Download the latest release from GitHub [here](https://github.com/CommandPost/Re
 
 Unzip the downloaded ZIP and put the `rename-avid-mxf` executable somewhere easily accessible like your Desktop.
 
-Open `Terminal.app` (you can search for **Terminal** in Spotlight) and change to the directory which contains the `rename-avid-mxf` executable.
+Open `Terminal.app` (you can search for **Terminal** in Spotlight) and change to the folder which contains the `rename-avid-mxf` executable.
 
 **PRO TIP:** You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
 
@@ -44,13 +44,13 @@ To process a **single MXF file**:
 ./rename-avid-mxf.sh "/path/to/yourfile.mxf"
 ```
 
-To process a **directory** of MXF files:
+To process a **folder** of MXF files:
 
 ```bash
-./rename-avid-mxf.sh "/path/to/directory"
+./rename-avid-mxf.sh "/path/to/folder"
 ```
 
-This script will recursively search through the specified directory and rename all MXF files based on their package name.
+This script will recursively search through the specified folder and rename all MXF files based on their package name.
 
 **PRO TIP:** You can right-click on files in Finder with the OPTION key held down to copy a file or folders pathname.
 
@@ -93,7 +93,7 @@ If you don't want to download a pre-compiled executable, you can trigger the Pyt
 
 5. Double click on the downloaded ZIP file in Finder to unzip it. Put the folder somewhere like your Desktop.
 
-6. Change to the directory which you just unzipped (i.e. the folder which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files) and go into the **Source** folder. You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
+6. Change to the folder which you just unzipped (i.e. the folder which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files) and go into the **Source** folder. You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
 
 7. Make the `rename-avid-mxf.sh` shell script executable:
 
@@ -105,7 +105,7 @@ If you don't want to download a pre-compiled executable, you can trigger the Pyt
 
 ### Usage
 
-Change to the directory which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files.
+Change to the folder which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files.
 
 To process a single file:
 
@@ -113,10 +113,10 @@ To process a single file:
 ./rename-avid-mxf.sh "/path/to/yourfile.mxf"
 ```
 
-To process a directory:
+To process a folder:
 
 ```bash
-./rename-avid-mxf.sh "/path/to/directory"
+./rename-avid-mxf.sh "/path/to/folder"
 ```
 
-This script will recursively search through the specified directory and rename all MXF files based on their package name.
+This script will recursively search through the specified folder and rename all MXF files based on their package name.
