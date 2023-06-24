@@ -6,6 +6,10 @@ The script can process a single file or a directory containing multiple MXF file
 
 This is useful if you want to move native Avid MXF files from Avid Media Composer to Final Cut Pro.
 
+This script is very basic, and doesn't contain any special error handling or messaging.
+
+You should duplicate the MXF files you want to process prior to using, as there's no "undo" once you run the script.
+
 ---
 
 ## Example
@@ -47,7 +51,7 @@ Here's a real-world example:
     brew install python3 mediainfo libmediainfo
     ```
 
-3. Clone this repository:
+3. Clone this repository (or alternatively manually download by pressing the **Code** button above then **Download ZIP**):
 
     ```bash
     git clone https://github.com/CommandPost/RenameAvidMXFFiles.git
