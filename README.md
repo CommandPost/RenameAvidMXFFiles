@@ -10,6 +10,8 @@ This script is very basic, and doesn't contain any special error handling or mes
 
 You should duplicate the MXF files you want to process prior to using, as there's no "undo" once you run the script.
 
+**NOTE:** The executable in the Easy Installation below is a lot slower than just running the Python script directly.
+
 ---
 
 ## Example
