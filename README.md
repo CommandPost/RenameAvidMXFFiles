@@ -46,7 +46,7 @@ To process a single file:
 
 To process a directory:
 
-    ```
+    ```bash
     ./rename-avid-mxf.sh "/path/to/directory"
     ```
 
