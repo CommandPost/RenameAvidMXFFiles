@@ -28,7 +28,7 @@ Here's a real-world example:
 
 ---
 
-## Installation
+## Easy Installation
 
 Download the latest release from GitHub [here](https://github.com/CommandPost/RenameAvidMXFFiles/releases/latest).
 
@@ -36,7 +36,7 @@ Unzip the downloaded ZIP and put the `rename-avid-mxf` executable somewhere easi
 
 Open `Terminal.app` (you can search for **Terminal** in Spotlight) and change to the directory which contains the `rename-avid-mxf` executable.
 
-> **TIP:** You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
+**PRO TIP:** You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
 
 To process a single file:
 
@@ -52,11 +52,11 @@ To process a directory:
 
 This script will recursively search through the specified directory and rename all MXF files based on their package name.
 
-> **TIP:** You can right-click on files in Finder with the OPTION key held down to copy a file or folders pathname.
+**PRO TIP:** You can right-click on files in Finder with the OPTION key held down to copy a file or folders pathname.
 
 ---
 
-## Building Manually
+## Manual Installation
 
 If you don't want to download a pre-compiled executable, you can trigger the Python Script directly.
 
@@ -107,8 +107,6 @@ If you don't want to download a pre-compiled executable, you can trigger the Pyt
 
 Change to the directory which contains the `rename-avid-mxf.sh` and `rename-avid-mxf.py` files.
 
-> **TIP:** You can do this easily by dragging a folder from **Finder** to **Terminal** whilst holding down the **COMMAND** key.
-
 To process a single file:
 
     ```bash
@@ -122,5 +120,3 @@ To process a directory:
     ```
 
 This script will recursively search through the specified directory and rename all MXF files based on their package name.
-
-> **TIP:** You can right-click on files in Finder with the OPTION key held down to copy a file or folders pathname.
