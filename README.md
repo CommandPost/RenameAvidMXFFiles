@@ -4,6 +4,8 @@ This simple Python script is used to rename MXF files generated from Avid Media 
 
 The script can process a single file or a directory containing multiple MXF files.
 
+This is useful if you want to move native Avid MXF files from Avid Media Composer to Final Cut Pro.
+
 ---
 
 ## Prerequisites
