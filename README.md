@@ -8,6 +8,22 @@ This is useful if you want to move native Avid MXF files from Avid Media Compose
 
 ---
 
+## Example
+
+Here's a real-world example:
+
+**Before:**
+
+- `5bis-01T01A03.E0A869B4CDC3A.mxf`
+- `V01.E0A7CD6A_55C5455C54DD8V.mxf`
+
+**After:**
+
+- `5bis-01-01 - 23Y06M08 - 5bis-01T01.wav.mxf`
+- `A016C010_230608_R2QM - A016C010_230608_R2QM.new.01.mxf`
+
+---
+
 ## Prerequisites
 
 - macOS 12 or later
