@@ -78,6 +78,9 @@ This script will recursively search through the specified folder and rename all 
 
 ## Version History
 
+### v1.0.2 - Tuesday 4th July 2023
+- Update binary to be Universal, so that it works on Apple Silicon & Intel Mac's.
+
 ### v1.0.1 - Saturday 24th June 2023
 - Added `--trimafterspace` argument.
 
